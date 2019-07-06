@@ -1,0 +1,25 @@
+{
+  "name": "get-leetcode-problem-parameter",
+  "version": "1.0.0",
+  "description": "get leetcode problem input and output parameter type",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangtao0101/get-leetcode-problem-parameter.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangtao0101/get-leetcode-problem-parameter/issues"
+  },
+  "homepage": "https://github.com/wangtao0101/get-leetcode-problem-parameter#readme",
+  "dependencies": {
+    "leetcode-cli": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.12"
+  }
+}
