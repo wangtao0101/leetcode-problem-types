@@ -3,7 +3,7 @@ const fs = require('fs');
 const cp = require('child_process');
 
 const max = 1106;
-const min = 156;
+const min = 1;
 
 const leetcode = path.join(process.cwd(), 'node_modules/.bin/leetcode.cmd');
 
@@ -34,36 +34,22 @@ async function executeCommand(command, args, options) {
   });
 }
 
-function deleteFolder(path) {
-  let files = [];
-  if (fs.existsSync(path)) {
-    files = fs.readdirSync(path);
-    files.forEach(function(file, index) {
-      let curPath = path + '/' + file;
-      if (fs.statSync(curPath).isDirectory()) {
-        deleteFolder(curPath);
-      } else {
-        fs.unlinkSync(curPath);
-      }
-    });
-    fs.rmdirSync(path);
+function mkDir(templatePath) {
+  if (!fs.existsSync(templatePath)) {
+    fs.mkdirSync(templatePath);
   }
-}
-
-function clearDir(templatePath) {
-  if (fs.existsSync(templatePath)) {
-    deleteFolder(templatePath);
-  }
-  fs.mkdirSync(templatePath);
 }
 
 (async () => {
   const templatePath = path.join(process.cwd(), 'template');
-  // clearDir(templatePath);
+  mkDir(templatePath);
   for (let i = min; i <= max; i++) {
     try {
-      const codeTemplate = await executeCommand(leetcode, ['show', i, '-cx', '-l', 'javascript']);
-      fs.writeFileSync(path.join(templatePath, `${i}.js`), codeTemplate);
+      const problemPath = path.join(templatePath, `${i}.js`);
+      if (!fs.existsSync(problemPath)) {
+        const codeTemplate = await executeCommand(leetcode, ['show', i, '-cx', '-l', 'javascript']);
+        fs.writeFileSync(problemPath, codeTemplate);
+      }
     } catch (error) {
       console.log(error);
     }
