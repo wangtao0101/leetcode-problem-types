@@ -3,6 +3,7 @@ const fs = require('fs');
 const cp = require('child_process');
 
 const max = 1106;
+const min = 156;
 
 const leetcode = path.join(process.cwd(), 'node_modules/.bin/leetcode.cmd');
 
@@ -58,9 +59,13 @@ function clearDir(templatePath) {
 
 (async () => {
   const templatePath = path.join(process.cwd(), 'template');
-  clearDir(templatePath);
-  for (let i = 1; i <= max; i++) {
-    const codeTemplate = await executeCommand(leetcode, ['show', i, '-cx', '-l', 'javascript']);
-    fs.writeFileSync(path.join(templatePath, `${i}.js`), codeTemplate);
+  // clearDir(templatePath);
+  for (let i = min; i <= max; i++) {
+    try {
+      const codeTemplate = await executeCommand(leetcode, ['show', i, '-cx', '-l', 'javascript']);
+      fs.writeFileSync(path.join(templatePath, `${i}.js`), codeTemplate);
+    } catch (error) {
+      console.log(error);
+    }
   }
 })();
