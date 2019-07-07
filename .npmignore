@@ -1,0 +1,8 @@
+.vscode
+node_modules
+template
+.editorconfig
+execCommand.js
+genFile.js
+genParameter.js
+package-lock.json

@@ -1,27 +1,26 @@
 {
-  "name": "get-leetcode-problem-parameter",
-  "version": "1.0.0",
-  "description": "get leetcode problem input and output parameter type",
+  "name": "leetcode-problem-types",
+  "version": "0.1.0",
+  "description": "Get leetcode problem input and output parameter types, function name and default test case.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangtao0101/get-leetcode-problem-parameter.git"
+    "url": "git+https://github.com/wangtao0101/leetcode-problem-types.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wangtao0101/get-leetcode-problem-parameter/issues"
+    "url": "https://github.com/wangtao0101/leetcode-problem-types/issues"
   },
-  "homepage": "https://github.com/wangtao0101/get-leetcode-problem-parameter#readme",
-  "dependencies": {
+  "homepage": "https://github.com/wangtao0101/leetcode-problem-types#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.0.12",
     "babylon": "^6.18.0",
     "json-format": "^1.0.1",
     "leetcode-cli": "^2.6.1"
-  },
-  "devDependencies": {
-    "@types/node": "^12.0.12"
   }
 }
