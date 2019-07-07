@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/wangtao0101/get-leetcode-problem-parameter#readme",
   "dependencies": {
+    "babylon": "^6.18.0",
+    "json-format": "^1.0.1",
     "leetcode-cli": "^2.6.1"
   },
   "devDependencies": {

@@ -7,8 +7,14 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "genFile",
             "program": "${workspaceFolder}\\genFile.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "genParameter",
+            "program": "${workspaceFolder}\\genParameter.js"
         }
     ]
 }

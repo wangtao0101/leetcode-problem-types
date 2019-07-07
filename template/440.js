@@ -1,34 +1,3 @@
-/*
- * @lc app=leetcode.cn id=440 lang=javascript
- *
- * [440] 字典序的第K小数字
- *
- * https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/description/
- *
- * algorithms
- * Hard (27.54%)
- * Total Accepted:    469
- * Total Submissions: 1.7K
- * Testcase Example:  '13\n2'
- *
- * 给定整数 n 和 k，找到 1 到 n 中字典序第 k 小的数字。
- * 
- * 注意：1 ≤ k ≤ n ≤ 109。
- * 
- * 示例 :
- * 
- * 
- * 输入:
- * n: 13   k: 2
- * 
- * 输出:
- * 10
- * 
- * 解释:
- * 字典序的排列是 [1, 10, 11, 12, 13, 2, 3, 4, 5, 6, 7, 8, 9]，所以第二小的数字是 10。
- * 
- * 
- */
 /**
  * @param {number} n
  * @param {number} k
@@ -38,3 +7,4 @@ var findKthNumber = function(n, k) {
     
 };
 
+//* Testcase Example: '13\n2'
