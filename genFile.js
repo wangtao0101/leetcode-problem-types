@@ -20,7 +20,7 @@ function mkDir(templatePath) {
   for (let i = min; i <= max; i++) {
     try {
       const problemPath = path.join(templatePath, `${i}.js`);
-      if (fs.existsSync(problemPath)) {
+      if (!fs.existsSync(problemPath)) {
         let codeTemplate = await executeCommand(leetcode, ['show', i, '-c', '-l', 'javascript']);
         // for get testcase
         const codeTemplateDetail = await executeCommand(leetcode, ['show', i, '-x', '-l', 'javascript']);
