@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode.cn id=429 lang=javascript
+ *
+ * [429] N叉树的层序遍历
+ */
+
+// @lc code=start
 /**
  * // Definition for a Node.
  * function Node(val,children) {
@@ -12,5 +19,6 @@
 var levelOrder = function(root) {
     
 };
+// @lc code=end
 
-//* Testcase Example: '{"$id":"1","children":[{"$id":"2","children":[{"$id":"5","children":[],"val":5},{"$id":"6","children":[],"val":6}],"val":3},{"$id":"3","children":[],"val":2},{"$id":"4","children":[],"val":4}],"val":1}'
+//* Testcase Example: '[1,null,3,2,4,null,5,6]\r'

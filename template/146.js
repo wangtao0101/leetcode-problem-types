@@ -1,8 +1,15 @@
+/*
+ * @lc app=leetcode.cn id=146 lang=javascript
+ *
+ * [146] LRU缓存机制
+ */
+
+// @lc code=start
 /**
  * @param {number} capacity
  */
 var LRUCache = function(capacity) {
-    
+
 };
 
 /** 
@@ -10,7 +17,7 @@ var LRUCache = function(capacity) {
  * @return {number}
  */
 LRUCache.prototype.get = function(key) {
-    
+
 };
 
 /** 
@@ -19,14 +26,15 @@ LRUCache.prototype.get = function(key) {
  * @return {void}
  */
 LRUCache.prototype.put = function(key, value) {
-    
+
 };
 
-/** 
+/**
  * Your LRUCache object will be instantiated and called as such:
  * var obj = new LRUCache(capacity)
  * var param_1 = obj.get(key)
  * obj.put(key,value)
  */
+// @lc code=end
 
 //* Testcase Example: '["LRUCache","put","put","get","put","get","put","get","get","get"]\n[[2],[1,1],[2,2],[1],[3,3],[2],[4,4],[1],[3],[4]]'

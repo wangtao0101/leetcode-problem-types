@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode.cn id=19 lang=javascript
+ *
+ * [19] 删除链表的倒数第N个节点
+ */
+
+// @lc code=start
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -11,7 +18,8 @@
  * @return {ListNode}
  */
 var removeNthFromEnd = function(head, n) {
-    
+
 };
+// @lc code=end
 
 //* Testcase Example: '[1,2,3,4,5]\n2'

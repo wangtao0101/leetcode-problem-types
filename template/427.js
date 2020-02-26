@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode.cn id=427 lang=javascript
+ *
+ * [427] 建立四叉树
+ */
+
+// @lc code=start
 /**
  * // Definition for a QuadTree node.
  * function Node(val,isLeaf,topLeft,topRight,bottomLeft,bottomRight) {
@@ -16,5 +23,6 @@
 var construct = function(grid) {
     
 };
+// @lc code=end
 
-//* Testcase Example: '[[1,1,1,1,0,0,0,0],[1,1,1,1,0,0,0,0],[1,1,1,1,1,1,1,1],[1,1,1,1,1,1,1,1],[1,1,1,1,0,0,0,0],[1,1,1,1,0,0,0,0],[1,1,1,1,0,0,0,0],[1,1,1,1,0,0,0,0]]'
+//* Testcase Example: '[[0,1],[1,0]]'

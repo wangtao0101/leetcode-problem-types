@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode.cn id=206 lang=javascript
+ *
+ * [206] 反转链表
+ */
+
+// @lc code=start
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -10,7 +17,8 @@
  * @return {ListNode}
  */
 var reverseList = function(head) {
-    
+
 };
+// @lc code=end
 
 //* Testcase Example: '[1,2,3,4,5]'

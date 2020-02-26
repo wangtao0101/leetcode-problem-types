@@ -1,8 +1,15 @@
+/*
+ * @lc app=leetcode.cn id=705 lang=javascript
+ *
+ * [705] 设计哈希集合
+ */
+
+// @lc code=start
 /**
  * Initialize your data structure here.
  */
 var MyHashSet = function() {
-    
+
 };
 
 /** 
@@ -10,7 +17,7 @@ var MyHashSet = function() {
  * @return {void}
  */
 MyHashSet.prototype.add = function(key) {
-    
+
 };
 
 /** 
@@ -18,7 +25,7 @@ MyHashSet.prototype.add = function(key) {
  * @return {void}
  */
 MyHashSet.prototype.remove = function(key) {
-    
+
 };
 
 /**
@@ -27,15 +34,16 @@ MyHashSet.prototype.remove = function(key) {
  * @return {boolean}
  */
 MyHashSet.prototype.contains = function(key) {
-    
+
 };
 
-/** 
+/**
  * Your MyHashSet object will be instantiated and called as such:
  * var obj = new MyHashSet()
  * obj.add(key)
  * obj.remove(key)
  * var param_3 = obj.contains(key)
  */
+// @lc code=end
 
 //* Testcase Example: '["MyHashSet","add","add","contains","contains","add","contains","remove","contains"]\n[[],[1],[2],[1],[3],[2],[2],[2],[2]]'

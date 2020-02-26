@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode.cn id=653 lang=javascript
+ *
+ * [653] 两数之和 IV - 输入 BST
+ */
+
+// @lc code=start
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -11,7 +18,8 @@
  * @return {boolean}
  */
 var findTarget = function(root, k) {
-    
+
 };
+// @lc code=end
 
 //* Testcase Example: '[5,3,6,2,4,null,7]\n9'

@@ -1,8 +1,15 @@
+/*
+ * @lc app=leetcode.cn id=232 lang=javascript
+ *
+ * [232] 用栈实现队列
+ */
+
+// @lc code=start
 /**
  * Initialize your data structure here.
  */
 var MyQueue = function() {
-    
+
 };
 
 /**
@@ -11,7 +18,7 @@ var MyQueue = function() {
  * @return {void}
  */
 MyQueue.prototype.push = function(x) {
-    
+
 };
 
 /**
@@ -19,7 +26,7 @@ MyQueue.prototype.push = function(x) {
  * @return {number}
  */
 MyQueue.prototype.pop = function() {
-    
+
 };
 
 /**
@@ -27,7 +34,7 @@ MyQueue.prototype.pop = function() {
  * @return {number}
  */
 MyQueue.prototype.peek = function() {
-    
+
 };
 
 /**
@@ -35,10 +42,10 @@ MyQueue.prototype.peek = function() {
  * @return {boolean}
  */
 MyQueue.prototype.empty = function() {
-    
+
 };
 
-/** 
+/**
  * Your MyQueue object will be instantiated and called as such:
  * var obj = new MyQueue()
  * obj.push(x)
@@ -46,5 +53,6 @@ MyQueue.prototype.empty = function() {
  * var param_3 = obj.peek()
  * var param_4 = obj.empty()
  */
+// @lc code=end
 
 //* Testcase Example: '["MyQueue","push","push","peek","pop","empty"]\n[[],[1],[2],[],[],[]]'

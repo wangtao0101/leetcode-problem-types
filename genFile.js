@@ -24,6 +24,7 @@ function mkDir(templatePath) {
         let codeTemplate = await executeCommand(leetcode, ['show', i, '-c', '-l', 'javascript']);
         // for get testcase
         const codeTemplateDetail = await executeCommand(leetcode, ['show', i, '-x', '-l', 'javascript']);
+
         const testCaseMatch = testCaseRegex.exec(codeTemplateDetail);
 
         if (testCaseMatch != null) {

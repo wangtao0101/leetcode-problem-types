@@ -43,7 +43,7 @@ const min = 1;
           let beginTokenIndex = 0;
           let find = false;
           while (!find) {
-            if (ast.tokens[beginTokenIndex + 1].type !== 'CommentBlock') {
+            if (ast.tokens[beginTokenIndex + 1].value === 'var') {
               find = true;
             } else {
               beginTokenIndex++;
@@ -84,7 +84,7 @@ const min = 1;
 
     console.log(Object.keys(types).length);
 
-    fs.writeFileSync(path.join(process.cwd(), 'types.js'), 'module.exports = ' +  jsonFormat(types));
+    fs.writeFileSync(path.join(process.cwd(), 'newTypes.js'), 'module.exports = ' +  jsonFormat(types));
   } catch (err) {
     console.log(err);
   }

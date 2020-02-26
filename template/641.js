@@ -1,9 +1,16 @@
+/*
+ * @lc app=leetcode.cn id=641 lang=javascript
+ *
+ * [641] 设计循环双端队列
+ */
+
+// @lc code=start
 /**
  * Initialize your data structure here. Set the size of the deque to be k.
  * @param {number} k
  */
 var MyCircularDeque = function(k) {
-    
+
 };
 
 /**
@@ -12,7 +19,7 @@ var MyCircularDeque = function(k) {
  * @return {boolean}
  */
 MyCircularDeque.prototype.insertFront = function(value) {
-    
+
 };
 
 /**
@@ -21,7 +28,7 @@ MyCircularDeque.prototype.insertFront = function(value) {
  * @return {boolean}
  */
 MyCircularDeque.prototype.insertLast = function(value) {
-    
+
 };
 
 /**
@@ -29,7 +36,7 @@ MyCircularDeque.prototype.insertLast = function(value) {
  * @return {boolean}
  */
 MyCircularDeque.prototype.deleteFront = function() {
-    
+
 };
 
 /**
@@ -37,7 +44,7 @@ MyCircularDeque.prototype.deleteFront = function() {
  * @return {boolean}
  */
 MyCircularDeque.prototype.deleteLast = function() {
-    
+
 };
 
 /**
@@ -45,7 +52,7 @@ MyCircularDeque.prototype.deleteLast = function() {
  * @return {number}
  */
 MyCircularDeque.prototype.getFront = function() {
-    
+
 };
 
 /**
@@ -53,7 +60,7 @@ MyCircularDeque.prototype.getFront = function() {
  * @return {number}
  */
 MyCircularDeque.prototype.getRear = function() {
-    
+
 };
 
 /**
@@ -61,7 +68,7 @@ MyCircularDeque.prototype.getRear = function() {
  * @return {boolean}
  */
 MyCircularDeque.prototype.isEmpty = function() {
-    
+
 };
 
 /**
@@ -69,10 +76,10 @@ MyCircularDeque.prototype.isEmpty = function() {
  * @return {boolean}
  */
 MyCircularDeque.prototype.isFull = function() {
-    
+
 };
 
-/** 
+/**
  * Your MyCircularDeque object will be instantiated and called as such:
  * var obj = new MyCircularDeque(k)
  * var param_1 = obj.insertFront(value)
@@ -84,5 +91,6 @@ MyCircularDeque.prototype.isFull = function() {
  * var param_7 = obj.isEmpty()
  * var param_8 = obj.isFull()
  */
+// @lc code=end
 
 //* Testcase Example: '["MyCircularDeque","insertLast","insertLast","insertFront","insertFront","getRear","isFull","deleteLast","insertFront","getFront"]\n[[3],[1],[2],[3],[4],[],[],[],[4],[]]'

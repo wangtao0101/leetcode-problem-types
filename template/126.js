@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode.cn id=126 lang=javascript
+ *
+ * [126] 单词接龙 II
+ */
+
+// @lc code=start
 /**
  * @param {string} beginWord
  * @param {string} endWord
@@ -5,7 +12,8 @@
  * @return {string[][]}
  */
 var findLadders = function(beginWord, endWord, wordList) {
-    
+
 };
+// @lc code=end
 
 //* Testcase Example: '"hit"\n"cog"\n["hot","dot","dog","lot","log","cog"]'

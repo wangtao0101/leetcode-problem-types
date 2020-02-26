@@ -1,9 +1,16 @@
+/*
+ * @lc app=leetcode.cn id=703 lang=javascript
+ *
+ * [703] 数据流中的第K大元素
+ */
+
+// @lc code=start
 /**
  * @param {number} k
  * @param {number[]} nums
  */
 var KthLargest = function(k, nums) {
-    
+
 };
 
 /** 
@@ -11,13 +18,14 @@ var KthLargest = function(k, nums) {
  * @return {number}
  */
 KthLargest.prototype.add = function(val) {
-    
+
 };
 
-/** 
+/**
  * Your KthLargest object will be instantiated and called as such:
  * var obj = new KthLargest(k, nums)
  * var param_1 = obj.add(val)
  */
+// @lc code=end
 
 //* Testcase Example: '["KthLargest","add","add","add","add","add"]\n[[3,[4,5,8,2]],[3],[5],[10],[9],[4]]'

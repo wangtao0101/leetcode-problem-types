@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode.cn id=100 lang=javascript
+ *
+ * [100] 相同的树
+ */
+
+// @lc code=start
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -11,7 +18,8 @@
  * @return {boolean}
  */
 var isSameTree = function(p, q) {
-    
+
 };
+// @lc code=end
 
 //* Testcase Example: '[1,2,3]\n[1,2,3]'

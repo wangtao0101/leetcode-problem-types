@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode.cn id=341 lang=javascript
+ *
+ * [341] 扁平化嵌套列表迭代器
+ */
+
+// @lc code=start
 /**
  * // This is the interface that allows for creating nested lists.
  * // You should not implement it, or speculate about its implementation
@@ -54,5 +61,6 @@ NestedIterator.prototype.next = function() {
  * var i = new NestedIterator(nestedList), a = [];
  * while (i.hasNext()) a.push(i.next());
 */
+// @lc code=end
 
 //* Testcase Example: '[[1,1],2,[1,1]]'

@@ -1,8 +1,15 @@
+/*
+ * @lc app=leetcode.cn id=380 lang=javascript
+ *
+ * [380] 常数时间插入、删除和获取随机元素
+ */
+
+// @lc code=start
 /**
  * Initialize your data structure here.
  */
 var RandomizedSet = function() {
-    
+
 };
 
 /**
@@ -11,7 +18,7 @@ var RandomizedSet = function() {
  * @return {boolean}
  */
 RandomizedSet.prototype.insert = function(val) {
-    
+
 };
 
 /**
@@ -20,7 +27,7 @@ RandomizedSet.prototype.insert = function(val) {
  * @return {boolean}
  */
 RandomizedSet.prototype.remove = function(val) {
-    
+
 };
 
 /**
@@ -28,15 +35,16 @@ RandomizedSet.prototype.remove = function(val) {
  * @return {number}
  */
 RandomizedSet.prototype.getRandom = function() {
-    
+
 };
 
-/** 
+/**
  * Your RandomizedSet object will be instantiated and called as such:
  * var obj = new RandomizedSet()
  * var param_1 = obj.insert(val)
  * var param_2 = obj.remove(val)
  * var param_3 = obj.getRandom()
  */
+// @lc code=end
 
 //* Testcase Example: '["RandomizedSet","insert","remove","insert","getRandom","remove","insert","getRandom"]\n[[],[1],[2],[2],[],[1],[2],[]]'

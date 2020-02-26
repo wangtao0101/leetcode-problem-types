@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode.cn id=385 lang=javascript
+ *
+ * [385] 迷你语法分析器
+ */
+
+// @lc code=start
 /**
  * // This is the interface that allows for creating nested lists.
  * // You should not implement it, or speculate about its implementation
@@ -41,7 +48,8 @@
  * @return {NestedInteger}
  */
 var deserialize = function(s) {
-    
+
 };
+// @lc code=end
 
 //* Testcase Example: '"324"'

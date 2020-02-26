@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode.cn id=1030 lang=javascript
+ *
+ * [1030] 距离顺序排列矩阵单元格
+ */
+
+// @lc code=start
 /**
  * @param {number} R
  * @param {number} C
@@ -6,7 +13,8 @@
  * @return {number[][]}
  */
 var allCellsDistOrder = function(R, C, r0, c0) {
-    
+
 };
+// @lc code=end
 
 //* Testcase Example: '1\n2\n0\n0'

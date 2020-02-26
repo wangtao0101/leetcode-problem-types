@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode.cn id=297 lang=javascript
+ *
+ * [297] 二叉树的序列化与反序列化
+ */
+
+// @lc code=start
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -30,5 +37,6 @@ var deserialize = function(data) {
  * Your functions will be called as such:
  * deserialize(serialize(root));
  */
+// @lc code=end
 
 //* Testcase Example: '[1,2,3,null,null,4,5]'

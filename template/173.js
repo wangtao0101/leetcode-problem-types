@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode.cn id=173 lang=javascript
+ *
+ * [173] 二叉搜索树迭代器
+ */
+
+// @lc code=start
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -9,7 +16,7 @@
  * @param {TreeNode} root
  */
 var BSTIterator = function(root) {
-    
+
 };
 
 /**
@@ -17,7 +24,7 @@ var BSTIterator = function(root) {
  * @return {number}
  */
 BSTIterator.prototype.next = function() {
-    
+
 };
 
 /**
@@ -25,14 +32,15 @@ BSTIterator.prototype.next = function() {
  * @return {boolean}
  */
 BSTIterator.prototype.hasNext = function() {
-    
+
 };
 
-/** 
+/**
  * Your BSTIterator object will be instantiated and called as such:
  * var obj = new BSTIterator(root)
  * var param_1 = obj.next()
  * var param_2 = obj.hasNext()
  */
+// @lc code=end
 
 //* Testcase Example: '["BSTIterator","next","next","hasNext","next","hasNext","next","hasNext","next","hasNext"]\n[[[7,3,15,null,null,9,20]],[null],[null],[null],[null],[null],[null],[null],[null],[null]]'

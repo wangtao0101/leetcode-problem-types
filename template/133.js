@@ -1,8 +1,15 @@
+/*
+ * @lc app=leetcode.cn id=133 lang=javascript
+ *
+ * [133] 克隆图
+ */
+
+// @lc code=start
 /**
  * // Definition for a Node.
- * function Node(val,neighbors) {
- *    this.val = val;
- *    this.neighbors = neighbors;
+ * function Node(val, neighbors) {
+ *    this.val = val === undefined ? 0 : val;
+ *    this.neighbors = neighbors === undefined ? [] : neighbors;
  * };
  */
 /**
@@ -12,5 +19,6 @@
 var cloneGraph = function(node) {
     
 };
+// @lc code=end
 
-//* Testcase Example: '{"$id":"1","neighbors":[{"$id":"2","neighbors":[{"$ref":"1"},{"$id":"3","neighbors":[{"$ref":"2"},{"$id":"4","neighbors":[{"$ref":"3"},{"$ref":"1"}],"val":4}],"val":3}],"val":2},{"$ref":"4"}],"val":1}'
+//* Testcase Example: '[[2,4],[1,3],[2,4],[1,3]]\r'

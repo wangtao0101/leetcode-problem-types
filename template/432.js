@@ -1,8 +1,15 @@
+/*
+ * @lc app=leetcode.cn id=432 lang=javascript
+ *
+ * [432] 全 O(1) 的数据结构
+ */
+
+// @lc code=start
 /**
  * Initialize your data structure here.
  */
 var AllOne = function() {
-    
+
 };
 
 /**
@@ -11,7 +18,7 @@ var AllOne = function() {
  * @return {void}
  */
 AllOne.prototype.inc = function(key) {
-    
+
 };
 
 /**
@@ -20,7 +27,7 @@ AllOne.prototype.inc = function(key) {
  * @return {void}
  */
 AllOne.prototype.dec = function(key) {
-    
+
 };
 
 /**
@@ -28,7 +35,7 @@ AllOne.prototype.dec = function(key) {
  * @return {string}
  */
 AllOne.prototype.getMaxKey = function() {
-    
+
 };
 
 /**
@@ -36,10 +43,10 @@ AllOne.prototype.getMaxKey = function() {
  * @return {string}
  */
 AllOne.prototype.getMinKey = function() {
-    
+
 };
 
-/** 
+/**
  * Your AllOne object will be instantiated and called as such:
  * var obj = new AllOne()
  * obj.inc(key)
@@ -47,5 +54,6 @@ AllOne.prototype.getMinKey = function() {
  * var param_3 = obj.getMaxKey()
  * var param_4 = obj.getMinKey()
  */
+// @lc code=end
 
 //* Testcase Example: '["AllOne","getMaxKey","getMinKey"]\n[[],[],[]]'

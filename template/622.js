@@ -1,9 +1,16 @@
+/*
+ * @lc app=leetcode.cn id=622 lang=javascript
+ *
+ * [622] 设计循环队列
+ */
+
+// @lc code=start
 /**
  * Initialize your data structure here. Set the size of the queue to be k.
  * @param {number} k
  */
 var MyCircularQueue = function(k) {
-    
+
 };
 
 /**
@@ -12,7 +19,7 @@ var MyCircularQueue = function(k) {
  * @return {boolean}
  */
 MyCircularQueue.prototype.enQueue = function(value) {
-    
+
 };
 
 /**
@@ -20,7 +27,7 @@ MyCircularQueue.prototype.enQueue = function(value) {
  * @return {boolean}
  */
 MyCircularQueue.prototype.deQueue = function() {
-    
+
 };
 
 /**
@@ -28,7 +35,7 @@ MyCircularQueue.prototype.deQueue = function() {
  * @return {number}
  */
 MyCircularQueue.prototype.Front = function() {
-    
+
 };
 
 /**
@@ -36,7 +43,7 @@ MyCircularQueue.prototype.Front = function() {
  * @return {number}
  */
 MyCircularQueue.prototype.Rear = function() {
-    
+
 };
 
 /**
@@ -44,7 +51,7 @@ MyCircularQueue.prototype.Rear = function() {
  * @return {boolean}
  */
 MyCircularQueue.prototype.isEmpty = function() {
-    
+
 };
 
 /**
@@ -52,10 +59,10 @@ MyCircularQueue.prototype.isEmpty = function() {
  * @return {boolean}
  */
 MyCircularQueue.prototype.isFull = function() {
-    
+
 };
 
-/** 
+/**
  * Your MyCircularQueue object will be instantiated and called as such:
  * var obj = new MyCircularQueue(k)
  * var param_1 = obj.enQueue(value)
@@ -65,5 +72,6 @@ MyCircularQueue.prototype.isFull = function() {
  * var param_5 = obj.isEmpty()
  * var param_6 = obj.isFull()
  */
+// @lc code=end
 
 //* Testcase Example: '["MyCircularQueue","enQueue","enQueue","enQueue","enQueue","Rear","isFull","deQueue","enQueue","Rear"]\n[[3],[1],[2],[3],[4],[],[],[],[4],[]]'

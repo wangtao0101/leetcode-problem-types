@@ -1,8 +1,15 @@
+/*
+ * @lc app=leetcode.cn id=676 lang=javascript
+ *
+ * [676] 实现一个魔法字典
+ */
+
+// @lc code=start
 /**
  * Initialize your data structure here.
  */
 var MagicDictionary = function() {
-    
+
 };
 
 /**
@@ -11,7 +18,7 @@ var MagicDictionary = function() {
  * @return {void}
  */
 MagicDictionary.prototype.buildDict = function(dict) {
-    
+
 };
 
 /**
@@ -20,14 +27,15 @@ MagicDictionary.prototype.buildDict = function(dict) {
  * @return {boolean}
  */
 MagicDictionary.prototype.search = function(word) {
-    
+
 };
 
-/** 
+/**
  * Your MagicDictionary object will be instantiated and called as such:
  * var obj = new MagicDictionary()
  * obj.buildDict(dict)
  * var param_2 = obj.search(word)
  */
+// @lc code=end
 
 //* Testcase Example: '["MagicDictionary", "buildDict", "search", "search", "search", "search"]\n[[], [["hello","leetcode"]], ["hello"], ["hhllo"], ["hell"], ["leetcoded"]]'

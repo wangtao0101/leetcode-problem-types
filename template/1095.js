@@ -1,15 +1,22 @@
+/*
+ * @lc app=leetcode.cn id=1095 lang=javascript
+ *
+ * [1095] 山脉数组中查找目标值
+ */
+
+// @lc code=start
 /**
  * // This is the MountainArray's API interface.
  * // You should not implement it, or speculate about its implementation
  * function MountainArray() {
  *
- *     @param {integer} index
- *     @return {integer}
+ *     @param {number} index
+ *     @return {number}
  *     this.get = function(index) {
  *         ...
  *     };
  *
- *     @return {integer}
+ *     @return {number}
  *     this.length = function() {
  *         ...
  *     };
@@ -23,5 +30,6 @@
 var findInMountainArray = function(target, mountainArr) {
     
 };
+// @lc code=end
 
 //* Testcase Example: '[1,2,3,4,5,3,1]\n3'

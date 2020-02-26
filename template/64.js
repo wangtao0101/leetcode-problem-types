@@ -1,9 +1,17 @@
+/*
+ * @lc app=leetcode.cn id=64 lang=javascript
+ *
+ * [64] 最小路径和
+ */
+
+// @lc code=start
 /**
  * @param {number[][]} grid
  * @return {number}
  */
 var minPathSum = function(grid) {
-    
+
 };
+// @lc code=end
 
 //* Testcase Example: '[[1,3,1],[1,5,1],[4,2,1]]'

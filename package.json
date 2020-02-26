@@ -16,11 +16,12 @@
     "url": "https://github.com/wangtao0101/leetcode-problem-types/issues"
   },
   "homepage": "https://github.com/wangtao0101/leetcode-problem-types#readme",
-  "dependencies": {},
+  "dependencies": {
+    "vsc-leetcode-cli": "^2.6.22"
+  },
   "devDependencies": {
     "@types/node": "^12.0.12",
     "babylon": "^6.18.0",
-    "json-format": "^1.0.1",
-    "leetcode-cli": "^2.6.1"
+    "json-format": "^1.0.1"
   }
 }

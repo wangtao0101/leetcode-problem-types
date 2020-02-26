@@ -1,8 +1,15 @@
+/*
+ * @lc app=leetcode.cn id=208 lang=javascript
+ *
+ * [208] 实现 Trie (前缀树)
+ */
+
+// @lc code=start
 /**
  * Initialize your data structure here.
  */
 var Trie = function() {
-    
+
 };
 
 /**
@@ -11,7 +18,7 @@ var Trie = function() {
  * @return {void}
  */
 Trie.prototype.insert = function(word) {
-    
+
 };
 
 /**
@@ -20,7 +27,7 @@ Trie.prototype.insert = function(word) {
  * @return {boolean}
  */
 Trie.prototype.search = function(word) {
-    
+
 };
 
 /**
@@ -29,15 +36,16 @@ Trie.prototype.search = function(word) {
  * @return {boolean}
  */
 Trie.prototype.startsWith = function(prefix) {
-    
+
 };
 
-/** 
+/**
  * Your Trie object will be instantiated and called as such:
  * var obj = new Trie()
  * obj.insert(word)
  * var param_2 = obj.search(word)
  * var param_3 = obj.startsWith(prefix)
  */
+// @lc code=end
 
 //* Testcase Example: '["Trie","insert","search","search","startsWith","insert","search"]\n[[],["apple"],["apple"],["app"],["app"],["app"],["app"]]'

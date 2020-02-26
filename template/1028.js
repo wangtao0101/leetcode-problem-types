@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode.cn id=1028 lang=javascript
+ *
+ * [1028] 从先序遍历还原二叉树
+ */
+
+// @lc code=start
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -10,7 +17,8 @@
  * @return {TreeNode}
  */
 var recoverFromPreorder = function(S) {
-    
+
 };
+// @lc code=end
 
 //* Testcase Example: '"1-2--3--4-5--6--7"'

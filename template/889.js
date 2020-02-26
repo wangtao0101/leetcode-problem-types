@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode.cn id=889 lang=javascript
+ *
+ * [889] 根据前序和后序遍历构造二叉树
+ */
+
+// @lc code=start
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -11,7 +18,8 @@
  * @return {TreeNode}
  */
 var constructFromPrePost = function(pre, post) {
-    
+
 };
+// @lc code=end
 
 //* Testcase Example: '[1,2,4,5,3,6,7]\n[4,5,2,6,7,3,1]'

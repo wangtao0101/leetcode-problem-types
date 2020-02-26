@@ -1,8 +1,15 @@
+/*
+ * @lc app=leetcode.cn id=355 lang=javascript
+ *
+ * [355] 设计推特
+ */
+
+// @lc code=start
 /**
  * Initialize your data structure here.
  */
 var Twitter = function() {
-    
+
 };
 
 /**
@@ -12,7 +19,7 @@ var Twitter = function() {
  * @return {void}
  */
 Twitter.prototype.postTweet = function(userId, tweetId) {
-    
+
 };
 
 /**
@@ -21,7 +28,7 @@ Twitter.prototype.postTweet = function(userId, tweetId) {
  * @return {number[]}
  */
 Twitter.prototype.getNewsFeed = function(userId) {
-    
+
 };
 
 /**
@@ -31,7 +38,7 @@ Twitter.prototype.getNewsFeed = function(userId) {
  * @return {void}
  */
 Twitter.prototype.follow = function(followerId, followeeId) {
-    
+
 };
 
 /**
@@ -41,10 +48,10 @@ Twitter.prototype.follow = function(followerId, followeeId) {
  * @return {void}
  */
 Twitter.prototype.unfollow = function(followerId, followeeId) {
-    
+
 };
 
-/** 
+/**
  * Your Twitter object will be instantiated and called as such:
  * var obj = new Twitter()
  * obj.postTweet(userId,tweetId)
@@ -52,5 +59,6 @@ Twitter.prototype.unfollow = function(followerId, followeeId) {
  * obj.follow(followerId,followeeId)
  * obj.unfollow(followerId,followeeId)
  */
+// @lc code=end
 
 //* Testcase Example: '["Twitter","postTweet","getNewsFeed","follow","postTweet","getNewsFeed","unfollow","getNewsFeed"]\n[[],[1,5],[1],[1,2],[2,6],[1],[1,2],[1]]'

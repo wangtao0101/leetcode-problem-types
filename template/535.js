@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode.cn id=535 lang=javascript
+ *
+ * [535] TinyURL 的加密与解密
+ */
+
+// @lc code=start
 /**
  * Encodes a URL to a shortened URL.
  *
@@ -22,5 +29,6 @@ var decode = function(shortUrl) {
  * Your functions will be called as such:
  * decode(encode(url));
  */
+// @lc code=end
 
 //* Testcase Example: '"https://leetcode.com/problems/design-tinyurl"'

@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode.cn id=701 lang=javascript
+ *
+ * [701] 二叉搜索树中的插入操作
+ */
+
+// @lc code=start
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -11,7 +18,8 @@
  * @return {TreeNode}
  */
 var insertIntoBST = function(root, val) {
-    
+
 };
+// @lc code=end
 
 //* Testcase Example: '[4,2,7,1,3]\n5'

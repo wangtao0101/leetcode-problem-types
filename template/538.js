@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode.cn id=538 lang=javascript
+ *
+ * [538] 把二叉搜索树转换为累加树
+ */
+
+// @lc code=start
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -10,7 +17,8 @@
  * @return {TreeNode}
  */
 var convertBST = function(root) {
-    
+
 };
+// @lc code=end
 
 //* Testcase Example: '[5,2,13]'

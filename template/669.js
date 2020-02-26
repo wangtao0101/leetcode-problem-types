@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode.cn id=669 lang=javascript
+ *
+ * [669] 修剪二叉搜索树
+ */
+
+// @lc code=start
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -12,7 +19,8 @@
  * @return {TreeNode}
  */
 var trimBST = function(root, L, R) {
-    
+
 };
+// @lc code=end
 
 //* Testcase Example: '[1,0,2]\n1\n2'

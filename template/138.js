@@ -1,6 +1,13 @@
+/*
+ * @lc app=leetcode.cn id=138 lang=javascript
+ *
+ * [138] 复制带随机指针的链表
+ */
+
+// @lc code=start
 /**
  * // Definition for a Node.
- * function Node(val,next,random) {
+ * function Node(val, next, random) {
  *    this.val = val;
  *    this.next = next;
  *    this.random = random;
@@ -13,5 +20,6 @@
 var copyRandomList = function(head) {
     
 };
+// @lc code=end
 
-//* Testcase Example: '{"$id":"1","next":{"$id":"2","next":null,"random":{"$ref":"2"},"val":2},"random":{"$ref":"2"},"val":1}'
+//* Testcase Example: '[[7,null],[13,0],[11,4],[10,2],[1,0]]\r'

@@ -1,10 +1,17 @@
+/*
+ * @lc app=leetcode.cn id=117 lang=javascript
+ *
+ * [117] 填充每个节点的下一个右侧节点指针 II
+ */
+
+// @lc code=start
 /**
  * // Definition for a Node.
- * function Node(val,left,right,next) {
- *    this.val = val;
- *    this.left = left;
- *    this.right = right;
- *    this.next = next;
+ * function Node(val, left, right, next) {
+ *    this.val = val === undefined ? null : val;
+ *    this.left = left === undefined ? null : left;
+ *    this.right = right === undefined ? null : right;
+ *    this.next = next === undefined ? null : next;
  * };
  */
 /**
@@ -14,5 +21,6 @@
 var connect = function(root) {
     
 };
+// @lc code=end
 
-//* Testcase Example: '{"$id":"1","left":{"$id":"2","left":{"$id":"3","left":null,"next":null,"right":null,"val":4},"next":null,"right":{"$id":"4","left":null,"next":null,"right":null,"val":5},"val":2},"next":null,"right":{"$id":"5","left":null,"next":null,"right":{"$id":"6","left":null,"next":null,"right":null,"val":7},"val":3},"val":1}'
+//* Testcase Example: '[1,2,3,4,5,null,7]'

@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode.cn id=237 lang=javascript
+ *
+ * [237] 删除链表中的节点
+ */
+
+// @lc code=start
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -12,5 +19,6 @@
 var deleteNode = function(node) {
     
 };
+// @lc code=end
 
 //* Testcase Example: '[4,5,1,9]\n5'

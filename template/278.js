@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode.cn id=278 lang=javascript
+ *
+ * [278] 第一个错误的版本
+ */
+
+// @lc code=start
 /**
  * Definition for isBadVersion()
  * 
@@ -21,5 +28,6 @@ var solution = function(isBadVersion) {
         
     };
 };
+// @lc code=end
 
 //* Testcase Example: '5\n4'
